@@ -1,0 +1,187 @@
+{
+  "company_info": {
+    "full_name": "Индивидуальный предприниматель Фикс.бел",
+    "short_name": "Фикс.бел", 
+    "brand_name": "фикс.бел",
+    "domain": "фикс.бел",
+    "international_domain": "xn--h1aevj.xn--90ais",
+    "unp": "Не указан",
+    "registration_country": "BY",
+    "legal_form": "ИП",
+    "founded": "2021"
+  },
+  "business": {
+    "industry": "Ремонт и обслуживание",
+    "specialization": "Ремонт мобильной техники",
+    "services": [
+      "Ремонт мобильных телефонов Xiaomi",
+      "Ремонт мобильных телефонов Huawei", 
+      "Ремонт мобильных телефонов iPhone",
+      "Ремонт мобильных телефонов Samsung",
+      "Ремонт других брендов мобильных устройств",
+      "Замена экранов",
+      "Замена аккумуляторов",
+      "Ремонт плат",
+      "Диагностика устройств",
+      "Срочный ремонт",
+      "Предоставление подменного телефона"
+    ],
+    "brands_serviced": [
+      "Xiaomi",
+      "Huawei", 
+      "Apple iPhone",
+      "Samsung",
+      "Google Pixel",
+      "OnePlus",
+      "Oppo",
+      "Vivo",
+      "Realme",
+      "Honor"
+    ],
+    "warranty": "Расширенная гарантия на выполненные работы"
+  },
+  "location": {
+    "address": {
+      "full_address": "ТЦ \"Московско-Венский\", пр. Независимости, 58, 3 этаж, пав. 352, Минск, Беларусь",
+      "street": "пр. Независимости, 58",
+      "building": "ТЦ \"Московско-Венский\"",
+      "floor": "3 этаж",
+      "pavilion": "пав. 352",
+      "city": "Минск",
+      "country": "Беларусь",
+      "postal_code": "220004",
+      "region": "Минская область"
+    },
+    "coordinates": {
+      "latitude": 53.9178975,
+      "longitude": 27.589062,
+      "maps_link": "https://www.google.com/maps/place/Фикс.бел+Ремонт+Xiaomi,+huawei,+Apple,+Samsung+и+другие/@53.9179031,27.5868703,17z/data=!4m7!3m6!1s0x46dbcfa6ee168b2b:0x2607d28f62bbb124!8m2!3d53.9178975!4d27.589062!9m1!1b1"
+    },
+    "accessibility": "Позвоните, мы встретим"
+  },
+  "contact_info": {
+    "phones": [
+      {
+        "number": "+375295626362",
+        "formatted": "+375 (29) 562-63-62",
+        "type": "mobile",
+        "primary": true,
+        "whatsapp": false,
+        "viber": true,
+        "telegram": false
+      }
+    ],
+    "emails": [
+      {
+        "address": "info@фикс.бел",
+        "type": "general",
+        "primary": true
+      }
+    ],
+    "social_media": [
+      {
+        "platform": "telegram",
+        "name": "Telegram",
+        "url": "https://t.me/fixbel",
+        "handle": "@fixbel"
+      },
+      {
+        "platform": "viber", 
+        "name": "Viber",
+        "url": "viber://chat?number=375295626362",
+        "phone": "+375295626362"
+      },
+      {
+        "platform": "instagram",
+        "name": "Instagram", 
+        "url": "https://www.instagram.com/fixminsk/",
+        "handle": "@fixminsk"
+      }
+    ]
+  },
+  "working_hours": {
+    "schedule": "Ежедневно: 10:00 - 20:00",
+    "timezone": "Europe/Minsk",
+    "days": {
+      "monday": {"open": "10:00", "close": "20:00"},
+      "tuesday": {"open": "10:00", "close": "20:00"},
+      "wednesday": {"open": "10:00", "close": "20:00"},
+      "thursday": {"open": "10:00", "close": "20:00"},
+      "friday": {"open": "10:00", "close": "20:00"},
+      "saturday": {"open": "10:00", "close": "20:00"},
+      "sunday": {"open": "10:00", "close": "20:00"}
+    },
+    "holidays": "Уточняйте по телефону"
+  },
+  "features": [
+    "Качественный ремонт любой сложности",
+    "Срочный ремонт",
+    "Отличные отзывы клиентов", 
+    "Расширенная гарантия",
+    "Подменный телефон на время ремонта",
+    "Бесплатная диагностика",
+    "Оригинальные запчасти",
+    "Опытные мастера"
+  ],
+  "pricing": {
+    "range": "$$",
+    "currency": "BYN",
+    "diagnostics": "Бесплатная диагностика",
+    "consultation": "Бесплатная консультация"
+  },
+  "reviews": {
+    "google_maps": {
+      "rating": 4.8,
+      "reviews_count": 127,
+      "url": "https://www.google.com/maps/place/Фикс.бел+Ремонт+Xiaomi,+huawei,+Apple,Samsung+и+другие/@53.9179031,27.5868703,17z"
+    }
+  },
+  "promotions": [
+    {
+      "title": "Скидка для друзей",
+      "description": "От вас пришел друг? Ему скидка, а вам подарок :)",
+      "active": true
+    }
+  ],
+  "website": {
+    "main_url": "https://фикс.бел",
+    "punycode_url": "https://xn--h1aevj.xn--90ais",
+    "sections": ["services", "stages", "contacts"],
+    "languages": ["ru"],
+    "mobile_friendly": true,
+    "ssl": true
+  },
+  "seo": {
+    "title": "Ремонт мобильных телефонов в Минске | Фикс.бел",
+    "description": "Сервис по ремонту мобильной техники в центре Минска. Качественный ремонт любой сложности, срочный ремонт, отличные отзывы клиентов, расширенная гарантия, подменный телефон.",
+    "keywords": [
+      "Ремонт мобильного телефона Минск",
+      "ремонт айфона Минск", 
+      "ремонт xiaomi Минск",
+      "ремонт сотового телефона",
+      "ремонт мобильной техники",
+      "ремонт huawei Минск",
+      "ремонт samsung Минск",
+      "замена экрана телефона Минск",
+      "ремонт телефонов центр Минска"
+    ]
+  },
+  "technology": {
+    "platform": "Custom HTML/CSS/JavaScript",
+    "features": [
+      "Responsive design",
+      "SEO optimized",
+      "Fast loading",
+      "Mobile-first",
+      "Accessibility compliant",
+      "Progressive Web App ready"
+    ],
+    "performance": {
+      "lighthouse_score": 95,
+      "page_speed": "Fast",
+      "mobile_friendly": true
+    }
+  },
+  "last_updated": "2024-12-19",
+  "data_version": "1.0"
+}
