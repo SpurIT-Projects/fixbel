@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="socialGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2980b9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e3a8a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="socialAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e74c3c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c0392b;stop-opacity:1" />
+    </linearGradient>
+    <filter id="socialShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="#000000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="200" rx="40" fill="#f8f9fa"/>
+  
+  <!-- Main logo circle -->
+  <circle cx="100" cy="80" r="50" fill="url(#socialGradient)" filter="url(#socialShadow)"/>
+  
+  <!-- Inner highlight -->
+  <circle cx="100" cy="80" r="42" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+  
+  <!-- Letter "Ф" -->
+  <text x="100" y="95" text-anchor="middle" font-family="'Exo 2', Arial, sans-serif" font-size="48" font-weight="700" fill="white">Ф</text>
+  
+  <!-- Company name -->
+  <g transform="translate(100, 140)">
+    <text x="-35" y="0" font-family="'Exo 2', Arial, sans-serif" font-size="24" font-weight="600" fill="#2c3e50">фикс</text>
+    <circle cx="5" cy="-6" r="3" fill="url(#socialAccent)"/>
+    <text x="15" y="0" font-family="'Exo 2', Arial, sans-serif" font-size="24" font-weight="600" fill="#34495e">бел</text>
+  </g>
+  
+  <!-- Tagline -->
+  <text x="100" y="170" text-anchor="middle" font-family="'Noto Sans', Arial, sans-serif" font-size="12" font-weight="400" fill="#7f8c8d">ремонт мобильной техники в Минске</text>
+  
+  <!-- Decorative corner elements -->
+  <g opacity="0.4">
+    <circle cx="25" cy="25" r="3" fill="#3498db"/>
+    <circle cx="175" cy="25" r="3" fill="#e74c3c"/>
+    <circle cx="25" cy="175" r="3" fill="#27ae60"/>
+    <circle cx="175" cy="175" r="3" fill="#f39c12"/>
+  </g>
+</svg>
