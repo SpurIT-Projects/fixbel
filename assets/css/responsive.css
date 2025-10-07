@@ -1,0 +1,486 @@
+/* Responsive Styles for Фикс.бел */
+
+/* Large screens (desktops) */
+@media (min-width: 1200px) {
+    .container {
+        padding: 0 40px;
+    }
+    
+    .hero-title {
+        font-size: 3.5rem;
+    }
+    
+    .services-grid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    
+    .stages-grid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+/* Medium screens (tablets, small desktops) */
+@media (max-width: 1199px) {
+    .hero-title {
+        font-size: 2.8rem;
+    }
+    
+    .hero-content {
+        gap: 3rem;
+    }
+    
+    .services-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .stages-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .scroll-nav {
+        right: 20px;
+    }
+}
+
+/* Small tablets */
+@media (max-width: 959px) {
+    .logo-img {
+        height: 36px;
+        max-width: 150px;
+    }
+    
+    .header-nav {
+        display: none;
+    }
+    
+    .mobile-menu-btn {
+        display: flex !important;
+    }
+    
+    .hero {
+        padding: 100px 0 60px;
+    }
+    
+    .hero-content {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        text-align: center;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .info-widgets {
+        padding: 50px 0;
+    }
+    
+    .widgets-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        max-width: 400px;
+    }
+    
+
+    
+    .service-icon img {
+        width: 75px;
+        height: 75px;
+    }
+    
+    .stages-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .contacts-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
+    }
+    
+    .scroll-nav {
+        display: none;
+    }
+}
+
+/* Mobile phones (landscape) */
+@media (max-width: 639px) {
+    .logo-img {
+        height: 34px;
+        max-width: 140px;
+    }
+    
+    .container {
+        padding: 0 15px;
+    }
+    
+    .header-container {
+        padding: 12px 15px;
+    }
+    
+    .hero {
+        padding: 80px 0 50px;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    
+
+    
+
+    
+    .btn {
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+    
+
+    
+    .section-title {
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+    
+    .services {
+        padding: 60px 0;
+    }
+    
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .info-widgets {
+        padding: 40px 0;
+    }
+    
+    .widget-card {
+        padding: 1.5rem;
+        gap: 1rem;
+    }
+    
+    .widget-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+    
+    .widget-content h3 {
+        font-size: 1rem;
+    }
+    
+    .service-card {
+        padding: 1.5rem;
+    }
+    
+    .stages {
+        padding: 60px 0;
+    }
+    
+    .stages-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .stage-card {
+        padding: 2rem 1.5rem;
+    }
+    
+    .contacts {
+        padding: 60px 0;
+    }
+    
+    .contact-map {
+        min-height: 300px;
+    }
+    
+    .social-links {
+        flex-direction: column;
+    }
+    
+    .social-btn {
+        justify-content: center;
+    }
+}
+
+/* Small mobile phones (portrait) */
+@media (max-width: 479px) {
+    .header-container {
+        padding: 10px 15px;
+    }
+    
+    .logo-img {
+        height: 32px;
+        max-width: 130px;
+    }
+    
+    .header-social {
+        gap: 10px;
+    }
+    
+    .social-link {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+    
+    .hero {
+        padding: 70px 0 40px;
+    }
+    
+    .hero-title {
+        font-size: 1.8rem;
+        line-height: 1.3;
+    }
+    
+    .hero-brands {
+        gap: 15px;
+    }
+    
+
+    
+    .feature {
+        font-size: 13px;
+        gap: 10px;
+    }
+    
+    .btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+
+    
+    .section-title {
+        font-size: 1.6rem;
+    }
+    
+    .service-card,
+    .stage-card {
+        padding: 1rem;
+    }
+    
+    .widget-card {
+        padding: 1rem;
+        gap: 0.8rem;
+    }
+    
+    .widget-icon {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+        margin: 0 auto;
+    }
+    
+    .widget-content h3 {
+        font-size: 0.9rem;
+        margin-bottom: 0.3rem;
+    }
+    
+    .widget-content p {
+        font-size: 13px;
+    }
+    
+    .service-icon img {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .service-prices {
+        margin: 1rem 0;
+        padding: 0.8rem;
+    }
+    
+    .price-service {
+        font-size: 12px;
+    }
+    
+    .price-cost {
+        font-size: 13px;
+    }
+    
+    .stage-number {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+        top: -12px;
+    }
+    
+    .contact-item {
+        gap: 15px;
+    }
+    
+    .contact-item i {
+        font-size: 18px;
+    }
+    
+    .map-placeholder i {
+        font-size: 3rem;
+    }
+    
+    .footer {
+        padding: 30px 0;
+    }
+    
+    .footer-content {
+        gap: 1rem;
+    }
+    
+    .footer-info {
+        font-size: 13px;
+    }
+    
+    .mobile-menu {
+        width: 280px;
+    }
+    
+    .mobile-menu-content {
+        padding: 15px;
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 359px) {
+    .logo-img {
+        height: 30px;
+        max-width: 120px;
+    }
+    
+    .container {
+        padding: 0 10px;
+    }
+    
+    .header-container {
+        padding: 8px 10px;
+    }
+    
+    .hero-title {
+        font-size: 1.6rem;
+    }
+    
+    .section-title {
+        font-size: 1.4rem;
+    }
+    
+    .mobile-menu {
+        width: 250px;
+    }
+    
+    .widget-card {
+        padding: 0.8rem;
+        gap: 0.6rem;
+    }
+    
+    .widget-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+        border-radius: 15px;
+    }
+    
+    .widget-content h3 {
+        font-size: 0.8rem;
+    }
+    
+    .widget-content p {
+        font-size: 12px;
+    }
+}
+
+/* High-DPI displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .logo-img,
+    .service-icon img {
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
+    }
+}
+
+/* Landscape orientation for mobile */
+@media (max-height: 500px) and (orientation: landscape) {
+    .hero {
+        padding: 60px 0 30px;
+    }
+    
+    .hero-title {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+    
+    .hero-content {
+        gap: 2rem;
+    }
+    
+
+    
+    .mobile-menu-content {
+        padding: 10px;
+    }
+}
+
+/* Print styles */
+@media print {
+    .header,
+    .mobile-menu,
+    .scroll-nav,
+    .social-link,
+    .social-btn {
+        display: none !important;
+    }
+    
+    .hero {
+        padding: 20px 0;
+    }
+    
+    body {
+        background-color: white !important;
+        color: black !important;
+    }
+    
+    .section-title,
+    .hero-title {
+        color: black !important;
+    }
+    
+    .service-card,
+    .stage-card {
+        background-color: white !important;
+        border: 1px solid #ccc !important;
+        box-shadow: none !important;
+    }
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+    
+    html {
+        scroll-behavior: auto;
+    }
+}
+
+/* Dark mode preference */
+@media (prefers-color-scheme: dark) {
+    /* Optional dark mode styles can be added here */
+}
